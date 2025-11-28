@@ -9,6 +9,6 @@ COPY ./package*.json ./
 RUN npm install
 
 # Copy the rest of the root app code
-COPY ./
+COPY . .
 
 CMD ["npm", "start"]
